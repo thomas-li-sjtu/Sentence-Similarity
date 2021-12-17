@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--max_len', type=int, help='pair文本最大长度', default=40)
-parser.add_argument('--batch_size', type=int, help='batch_size', default=4)
+parser.add_argument('--batch_size', type=int, help='batch_size', default=128)
 parser.add_argument('--pretrained_model_dir', type=str, help='预训练模型地址', default='./pretrained_model/bert-base-uncased')
 parser.add_argument('--num_train_epochs', type=int, help='训练epoch数', default=10)
 parser.add_argument('--max_steps', type=int, help='最大训练步数，如果设置了，则覆盖num_train_epochs', default=-1)
