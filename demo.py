@@ -120,9 +120,10 @@ outputs = [
     gr.outputs.Textbox(label="Predict Scores"),
 ]
 
-title = "bert-simcse"
+title = "Demo for Quora Question Pair Matching"
 description = "Demo for bert-simcse. To use it, simply add your texts, or click the example to load them. Read more at the links below."
-article = "<p style='text-align: center'>Demo for Quora Question Pair Matching</p>"
+article = "<p style='text-align: center'><a href='https://github.com/thomas-li-sjtu/Sentence-Similarity'>Github Repo</a></p>"
+# article = "<p style='text-align: center'>
 examples = [
     ["What are the books to improve English?",
      "What are some good books or resources to improve English?"]
