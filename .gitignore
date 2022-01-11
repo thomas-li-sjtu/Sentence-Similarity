@@ -1,2 +1,10 @@
 ./.idea/
 ./NLP_Final_Project/SQuAD/
+
+./SimCSE/
+./pretrained_model/
+./examples/
+./bert-finetune/
+./bert-rdrop/
+./bert-sentence/
+./bert-simcse(best)/
